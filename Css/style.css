@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(10, 80, 10);
+    border-radius: 10px;
+}
+
+nav img{
+    width: 100px;
+    padding: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+
+footer{
+    background-color: rgb(12, 98, 179);
+    border-radius: 10px;
+    padding: 10px;
+}
+footer p{
+    color: azure;
+}
+
+
+
+
+body{
+    background-color: rgb(4, 155, 79);
+}
+
+.card{
+    margin: 20px;
+    width: 400px;
+    
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #cccc;
+    font-family: "Lato", sans-serif;
+    
+}
+
+
+.tarjeta{
+    
+    display: flex;
+    
+    }
+
+    .card-content{
+        padding: 15px;
+    }
+
+    .card img{
+
+        width: 100%;
+        
+        }
+        .card:hover{
+            background-color: navy;
+            transform: scale(1.02);
+            
+            }
+            .card .footer{
+
+                padding: 25px;
+                text-align: center;
+            
+            }
+
+
+            .tarjeta{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
